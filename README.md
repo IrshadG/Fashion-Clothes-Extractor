@@ -21,7 +21,6 @@ From each bounding box, an image cropped from the original image. The images the
 #### 4. Detect Upper and Lower Clothes [segformer-b2-clothes]
 This model segments the cropped images into upper and lower clothes. The segment is converted to bounding box and cropped.
 
-Upper Clothes:
 <p float="left">
   Cropped Upper Clothes:
   <img src="media/Upper-Full Clothes.png?raw=true" width="600"/>
