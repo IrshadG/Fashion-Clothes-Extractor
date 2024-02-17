@@ -37,13 +37,13 @@ This model segments the cropped images into upper and lower clothes. The segment
 I'm working on finetuning classification models that can accurately identify the colors, categories, style, pattern and sub-category of each upper and lower clothes images.  
 
 ## Difficulties faced
-#### 1. Filtering Images
+### 1. Filtering Images
 There was quite some trial and error to set the right proportions for upper and lower limit to filter bounding boxes.    
 
-#### 2. Segmenting Upper and Lower Clothes
+### 2. Segmenting Upper and Lower Clothes
 It was difficult to find either model that could perform well or a dataset on which a model could be finetuned. Another finetuned model will be soon replaced with existing model that is far more accurate than current model.
 
-#### 3. Tagging Images
+### 3. Tagging Images
 The biggest challege I am facing while training this model is the dataset. Since I reqyuire specific classes for classification, I have to create the dataset myself. Creating and filtering such large dataset can be very time consuming. 
 
 ## Acknowledgment
